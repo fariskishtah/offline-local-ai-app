@@ -1,0 +1,42 @@
+
+# Ignore Python virtual env
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+!.env.example
+
+# Mac files
+.DS_Store
+
+# Databases & runtime data
+*.db
+data/
+logs/
+chat_history.db
+
+# Git
+.git/
+.gitignore
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Editors
+.idea/
+.vscode/
+
+# Misc
+*.swp
+*.swo
